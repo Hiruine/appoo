@@ -1,7 +1,9 @@
-class Item {
+package com.appoo.cart;
+
+public class Item {
+    private String itemID;
     private String name;
     private double price;
-    private String itemID;
 
 
     Item(String name, double price, String itemID){
