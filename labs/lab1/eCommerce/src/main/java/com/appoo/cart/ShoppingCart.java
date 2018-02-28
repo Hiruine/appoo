@@ -1,5 +1,7 @@
 package com.appoo.cart;
 
+import com.appoo.order.Order;
+
 import java.util.ArrayList;
 import java.util.Date;
 import java.util.UUID;
@@ -33,8 +35,8 @@ public class ShoppingCart {
         updateDate();
     }
 
-    public double checkout() {
-        return 0;
+    public void checkout() {
+        new Order();
     }
 
     public double calcTotalPrice() {
@@ -49,6 +51,5 @@ public class ShoppingCart {
     private void updateDate() {
         dateModified = new Date();
     }
-
 
 }

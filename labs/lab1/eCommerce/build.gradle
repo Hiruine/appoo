@@ -2,13 +2,24 @@ group 'appoo.lab1'
 version '1.0-SNAPSHOT'
 
 apply plugin: 'java'
+apply plugin: 'application'
 
-sourceCompatibility = 1.8
+
+mainClassName = 'main/java/com/apoo/AppMain.java'
 
 repositories {
     mavenCentral()
 }
 
+jar {
+    baseName = 'gs-gradle'
+    version =  '0.1.0'
+}
+
+sourceCompatibility = 1.8
+
 dependencies {
+    compile "joda-time:joda-time:2.2"
     testCompile group: 'junit', name: 'junit', version: '4.12'
+
 }

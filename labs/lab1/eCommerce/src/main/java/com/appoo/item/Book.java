@@ -1,4 +1,4 @@
-package com.appoo.item.implementation;
+package com.appoo.item;
 
 import com.appoo.item.Item;
 
@@ -6,7 +6,7 @@ public class Book implements Item {
 
     private String itemId;
     private String itemName;
-    private float price;
+    private double price;
 
 
     Book(String itemId, String itemName, float price) {

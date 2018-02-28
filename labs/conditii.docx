@@ -1,0 +1,28 @@
+﻿Laborator 1: Implementare principielor OOP
+
+In cadrul laboratorului e nevoie de realizat un sofware care o sa contina implementarea 
+celor patru principii OOP (abstractizarea, mostenirea, incapsularea, polimorfizm).
+Tematica este la discretia dumneavoastra. Source code-ul este obligatoriu de incarcat pe github.
+La sustinerea laboratorului prezenta raportului e obligatorie.
+
+Nota laboratorului se evaluiaza din urmatorii factori:
+1) Tematica softului realizat 
+2) Calitatea codului
+3) Cunoasterea domeniului cerut in cerinte
+4) numarul si calitatea commiturilor in  github.
+
+Bonus puncte pentru modul de prezentare a lucrarii.
+
+Laborator 2: Implementare principielor SOLID
+
+In cadrul laboratorului e nevoie de realizat un sofware care o sa contina realizarea
+principielor S (Single responsibility) si I (Interface segregation).
+Tematica este la discretia dumneavoastra (Nu se accepta folosirea lucrarii precedente). Source code-ul este obligatoriu de incarcat pe github.
+La sustinerea laboratorului prezenta raportului e obligatorie.
+
+Nota laboratorului se evaluiaza din urmatorii factori:
+1) Tematica softului realizat 
+2) Calitatea codului
+3) Cunoasterea domeniului cerut in cerinte
+4) numarul si calitatea commiturilor in  github.
+
