@@ -8,11 +8,11 @@ public final class Address
 
 
 
-    public Address(final String newStreetAddress, final String newCity, final String newState)
+    public Address(final String StreetAddress, final String City, final String State)
     {
-        this.streetAddress = newStreetAddress;
-        this.city = newCity;
-        this.state = newState;
+        this.streetAddress = StreetAddress;
+        this.city = City;
+        this.state = State;
     }
 
 

@@ -1,5 +1,7 @@
-package appoo.cart;
+package appoo.cart.shoppingCart;
 
+
+import appoo.cart.CartItem;
 
 import java.util.ArrayList;
 import java.util.Date;
@@ -30,23 +32,15 @@ public class ShoppingCart {
         updateDate();
     }
 
-    public void updateQuantity(CartItem cartItem, int quantity) {
-        cartItem.updateQuantity(quantity);
-        updateDate();
+    public List<CartItem> getCartItems() {
+        return cartItems;
     }
 
-
-    public double calcTotalPrice() {
-        double totalPrice = 0.0;
-        for (CartItem cartItem:
-                cartItems) {
-            totalPrice += cartItem.getSubtotal();
-        }
-        return totalPrice;
-    }
 
     private void updateDate() {
         dateModified = new Date();
     }
 
 }
+
+

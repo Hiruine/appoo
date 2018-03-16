@@ -4,13 +4,12 @@ package appoo.cart;
 import appoo.item.Item;
 
 public class CartItem {
-    private double unitCost;
     private int quantity;
+    private Item item;
 
 
-    public CartItem(Item item, int quantity){
-
-        unitCost = item.getPrice();
+    public CartItem(Item item, int quantity) {
+        this.item = item;
         this.quantity = quantity;
     }
 
@@ -19,11 +18,11 @@ public class CartItem {
     }
 
     public double getUnitCost() {
-        return unitCost;
+        return item.getPrice();
     }
 
     public double getSubtotal() {
-        return unitCost * quantity;
+        return item.getPrice() * quantity;
     }
 
 

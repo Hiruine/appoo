@@ -1,7 +1,7 @@
 package appoo;
 
 import appoo.cart.CartItem;
-import appoo.cart.ShoppingCart;
+import appoo.cart.shoppingCart.ShoppingCart;
 import appoo.customer.Address;
 import appoo.customer.CreditCard;
 import appoo.customer.Customer;
@@ -11,9 +11,7 @@ import appoo.item.Item;
 import appoo.order.Order;
 import appoo.order.ShippingInfo;
 
-import java.time.Clock;
-import java.time.LocalTime;
-import java.util.Date;
+
 
 public class AppMain {
     public static void main(String str[]) {

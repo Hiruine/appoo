@@ -1,7 +1,9 @@
 package appoo.order;
 
-import appoo.cart.ShoppingCart;
+import appoo.cart.shoppingCart.ShoppingCart;
 import appoo.customer.Customer;
+import appoo.cart.shoppingCart.CartTotalPrice;
+
 
 import java.util.Date;
 import java.util.UUID;
@@ -29,7 +31,7 @@ public class Order {
     }
 
     public double getTotalPrice() {
-        return shoppingCart.calcTotalPrice();
+        return
     }
 
     @Override
