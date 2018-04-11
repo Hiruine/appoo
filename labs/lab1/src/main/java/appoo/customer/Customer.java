@@ -1,5 +1,6 @@
 package appoo.customer;
 
+
 import java.util.UUID;
 
 public class Customer {

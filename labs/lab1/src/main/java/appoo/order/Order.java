@@ -31,7 +31,7 @@ public class Order {
     }
 
     public double getTotalPrice() {
-        return
+        return 0;
     }
 
     @Override

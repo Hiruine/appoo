@@ -1,3 +1,4 @@
+/*
 package appoo.cart;
 
 import appoo.item.Item;
@@ -21,7 +22,8 @@ public class Cart {
 
 
     public double getSubtotal() {
-        return items.get()
+        return 0;
     }
 
 }
+*/
