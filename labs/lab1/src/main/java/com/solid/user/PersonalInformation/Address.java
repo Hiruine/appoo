@@ -1,4 +1,4 @@
-package appoo.customer;
+package com.solid.user.PersonalInformation;
 
 public final class Address
 {

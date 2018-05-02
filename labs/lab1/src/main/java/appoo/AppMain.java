@@ -1,14 +1,14 @@
 package appoo;
 
 import appoo.cart.CartItem;
-import appoo.cart.shoppingCart.ShoppingCart;
-import appoo.customer.Address;
+import com.solid.shoppingCart.ShoppingCart;
+import com.solid.user.PersonalInformation.Address;
 import appoo.customer.CreditCard;
 import appoo.customer.Customer;
-import appoo.customer.FullName;
+import com.solid.user.PersonalInformation.FullName;
 import appoo.item.Book.Book;
 import appoo.item.Item;
-import appoo.order.Order;
+import com.solid.order.Order;
 import appoo.order.ShippingInfo;
 
 

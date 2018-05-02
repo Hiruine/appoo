@@ -1,8 +1,12 @@
 package appoo.customer;
 
+import com.solid.user.PersonalInformation.Address;
+import com.solid.user.PersonalInformation.FullName;
+
 import java.util.UUID;
 
 public class Customer {
+
     private String customerId;
     private FullName fullName;
     private CreditCard creditCard;
