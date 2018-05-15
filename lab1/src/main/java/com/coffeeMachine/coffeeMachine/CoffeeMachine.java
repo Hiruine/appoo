@@ -2,8 +2,7 @@ package com.coffeeMachine.coffeeMachine;
 
 
 import com.coffeeMachine.coffeeTypes.Coffee;
-import com.coffeeMachine.factory.CoffeeFactory;
-import com.sun.jdi.InvalidTypeException;
+import com.coffeeMachine.coffeeFactory.CoffeeFactory;
 
 public class CoffeeMachine {
     private CoffeeFactory coffeeFactory;
@@ -15,9 +14,11 @@ public class CoffeeMachine {
     public Coffee orderCoffee(String type) {
 
         Coffee coffee = coffeeFactory.createCoffee(type);
+        coffee.prepare();
 
-        prepareCoffee(coffee);
-
+        return coffee;
+    }
+}
 //        System.out.println(coffee.getPrice());
 //        System.out.println(String.valueOf(coffee.hasIngredients()));
 
@@ -26,13 +27,5 @@ public class CoffeeMachine {
 //            coffee.prepare();
 //        }
 //        else {
-//            throw new RuntimeException("not enogh money");
+//            throw new RuntimeException("not enogh input");
 //        }
-
-        return coffee;
-    }
-
-    private void prepareCoffee(Coffee coffee) {
-        coffee.prepare();
-    }
-}

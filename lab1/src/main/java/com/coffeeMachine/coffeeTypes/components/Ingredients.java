@@ -1,4 +1,4 @@
-package com.coffeeMachine.coffeeTypes.ingredients;
+package com.coffeeMachine.coffeeTypes.components;
 
 public class Ingredients {
 
@@ -47,5 +47,25 @@ public class Ingredients {
         milk = builder.milk;
         chocolate = builder.chocolate;
         cream = builder.cream;
+    }
+
+    public double getWater() {
+        return water;
+    }
+
+    public double getCoffee() {
+        return coffee;
+    }
+
+    public double getMilk() {
+        return milk;
+    }
+
+    public double getChocolate() {
+        return chocolate;
+    }
+
+    public double getCream() {
+        return cream;
     }
 }
