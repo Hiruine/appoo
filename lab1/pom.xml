@@ -13,5 +13,26 @@
         <maven.compiler.target>1.9</maven.compiler.target>
         <maven.compiler.release>9</maven.compiler.release>
     </properties>
+    <dependencies>
+        <dependency>
+            <groupId>javax.json.bind</groupId>
+            <artifactId>javax.json.bind-api</artifactId>
+            <version>1.0</version>
+        </dependency>
+
+        <!--Eclipse Yasson is the official reference
+        implementation of JSON Binding API (JSR-367).-->
+        <dependency>
+            <groupId>org.eclipse</groupId>
+            <artifactId>yasson</artifactId>
+            <version>1.0.1</version>
+        </dependency>
+        <dependency>
+            <groupId>org.glassfish</groupId>
+            <artifactId>javax.json</artifactId>
+            <version>1.1.2</version>
+        </dependency>
+
+    </dependencies>
 
 </project>

@@ -7,7 +7,7 @@ import java.util.Map;
 import java.util.function.Consumer;
 import java.util.function.Supplier;
 
-interface CoffeeFactory {
+public interface CoffeeFactory {
 
     Coffee createCoffee(String coffeeType);
 
