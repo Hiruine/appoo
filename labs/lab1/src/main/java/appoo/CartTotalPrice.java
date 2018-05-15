@@ -1,6 +1,7 @@
-package appoo.cart.shoppingCart;
+package appoo;
 
 import appoo.cart.CartItem;
+import com.solid.shoppingCart.ShoppingCart;
 
 public class CartTotalPrice {
 

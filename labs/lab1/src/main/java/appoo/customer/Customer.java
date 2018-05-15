@@ -1,9 +1,15 @@
 package appoo.customer;
 
+<<<<<<< HEAD
+=======
+import com.solid.user.PersonalInformation.Address;
+import com.solid.user.PersonalInformation.FullName;
+>>>>>>> 7fff08ff07f6386ae88c5544807f8f2eaa5e6b08
 
 import java.util.UUID;
 
 public class Customer {
+
     private String customerId;
     private FullName fullName;
     private CreditCard creditCard;
